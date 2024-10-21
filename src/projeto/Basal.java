@@ -23,7 +23,6 @@ public class Basal {
             idade = entrada.nextFloat();
         }
 
-       
         System.out.println("Agora digite seu peso:");
         float peso = entrada.nextFloat();
         while (peso <= 0) {
@@ -56,3 +55,4 @@ public class Basal {
         entrada.close(); 
     }
 }
+
