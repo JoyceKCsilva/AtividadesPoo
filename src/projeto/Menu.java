@@ -31,13 +31,14 @@ public class Menu {
 					
 				case "0":
 					System.out.println("Fim do programa!");
+					break;
 					
 				default:
 					System.out.println("Opção inválida! Digite uma das opções do menu!");
 			}	
-				
 					
 			} while (!escolha.equals("0"));
+		 	label.close();
 		}
 	
 	
@@ -120,7 +121,6 @@ public class Menu {
 
         System.out.println("O seu metabolismo basal em calorias é igual a: " + result);
 
-        entrada.close(); 
     }
 	
 	public static void Numero (Scanner label) {
