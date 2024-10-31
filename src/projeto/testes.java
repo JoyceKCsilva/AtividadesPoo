@@ -11,7 +11,7 @@ public class testes {
         }
         
         float media = soma / notas.length;
-        System.out.println("Média: " + media);
+        return media;
     }
 }
 
